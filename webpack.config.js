@@ -7,9 +7,10 @@
 // eslint-plugin-promise
 // eslint-plugin-standard
 // postcss-cssnext
-require('weex-loader')
+
 var path = require('path')
 var webpack = require('webpack')
+var cssnext = require('postcss-cssnext')
 
 var bannerPlugin = new webpack.BannerPlugin(
   '// { "framework": "Vue" }\n',
@@ -19,7 +20,7 @@ var bannerPlugin = new webpack.BannerPlugin(
 function getBaseConfig () {
   return {
     entry: {
-      app: path.resolve('./app.js')
+      'index': path.resolve('src','entry.js')
     },
     output: {
       path: 'dist',
@@ -55,7 +56,6 @@ function getBaseConfig () {
         {
           test: /\.js$/,
           loader: 'babel',
-          loaders: ['weex-loader'],
           exclude: /node_modules/
         }, {
           test: /\.vue(\?[^?]+)?$/,
@@ -69,11 +69,11 @@ function getBaseConfig () {
       // // 1. npm install postcss-cssnext --save-dev
       // // 2. write `var cssnext = require('postcss-cssnext')` at the top
       // // 3. set the config below
-      // postcss: [cssnext({
-      //   features: {
-      //     autoprefixer: false
-      //   }
-      // })]
+      postcss: [cssnext({
+        features: {
+          autoprefixer: false
+        }
+      })]
     },
     plugins: [bannerPlugin]
   }

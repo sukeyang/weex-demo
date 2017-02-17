@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+#source 'https://coding.net/u/CocoaPods/p/Specs/git'  # 官方库镜像
+source 'https://git.coding.net/410900345/SukSpecsMirrors.git'   # 私有库
+
+platform :ios, '7.0'
+
+target :weexDemo do
+
+ pod 'WeexSDK', :path=>'./WeexSDK/'
+ pod 'SSCategoriesSDK','~> 0.3.8' #通用扩展
+ pod  'WXDevtool',   '~>0.9.5'
+ pod 'SDWebImage', '3.7.5'
+ pod 'ATSDK-Weex', '~> 0.0.1'
+ pod 'SocketRocket', '0.4.2' 
+end
