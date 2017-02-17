@@ -1,0 +1,1 @@
+../../../SSCategoriesSDK/SSCategoriesSDK/Classes/SSTools/CommonBaseTools.h

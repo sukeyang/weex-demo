@@ -1,0 +1,1 @@
+../../../SSCategoriesSDK/SSCategoriesSDK/Classes/SSUIKit/UIGestureRecognizer+SSAdd.h
