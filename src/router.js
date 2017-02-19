@@ -9,7 +9,9 @@ import changeNet from './views/change-net.vue'
 import modal from './views/modal.vue'
 import picker from './views/picker.vue'
 import getUser from './views/getUser.vue'
+import navigator from './views/navgator.vue'
 import test from './views/test.vue'
+
 
 
 Vue.use(Router)
@@ -27,6 +29,7 @@ export default new Router({
         { path: '/modal', component: modal },
         { path: '/picker', component: picker },
         { path: '/getUser', component: getUser },
+        { path: '/navigator', component: navigator },
         { path: '/test', component: test },
         { path: '/', redirect: '/index' }
     ]

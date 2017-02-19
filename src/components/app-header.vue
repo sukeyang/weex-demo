@@ -8,7 +8,6 @@
 </template>
 <style scoped>
 .header {
-  /*width: 100%;*/
   position: relative;
   top: 0;
   left: 0;
