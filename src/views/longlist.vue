@@ -1,5 +1,6 @@
 <template>
   <div class="cnt">
+  <app-header></app-header>
     <text class="text">长列表</text>
     <scroller class="scroller">
       <div class="row" v-for="(name, index) in rows" :ref="'item'+index">
@@ -14,8 +15,11 @@
 </template>
 <script>
 const dom = weex.requireModule('dom')
+import AppHeader from '../components/app-header.vue'
 export default {
-
+    components: {
+    AppHeader
+  },
   data() {
       return {
         rows: []

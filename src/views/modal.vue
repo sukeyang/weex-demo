@@ -1,5 +1,6 @@
 <template>
   <div class="cnt">
+    <app-header></app-header>
     <div>
       <text class="button" @click="showToast">Toast</text>
       <text class="button" @click="showAlert">Alert</text>
@@ -10,8 +11,11 @@
 </template>
 <script>
 var modal = weex.requireModule('modal')
+import AppHeader from '../components/app-header.vue'
 export default {
-
+  components: {
+    AppHeader
+  },
   methods: {
     showToast(event) {
       console.log('will show toast')
