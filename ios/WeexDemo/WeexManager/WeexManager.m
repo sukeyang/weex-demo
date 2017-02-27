@@ -7,18 +7,18 @@
 //
 
 #import "WeexManager.h"
-
 #import "WXEventModule.h"
+
+#define ServerHost  @"http://192.168.1.109/"
 
 @implementation WeexManager
 
 + (void)setUp {
-    [self startDebugModel];
+//    [self startDebugModel];
     //business configuration
     [WXAppConfiguration setAppGroup:@"julong"];
     [WXAppConfiguration setAppName:@"WeexDemo"];
     [WXAppConfiguration setAppVersion:@"1.0.0"];
-    
     //init sdk enviroment
     [WXSDKEngine initSDKEnvironment];
     
@@ -35,8 +35,8 @@
 }
 
 + (void)startDebugModel {
-//    [WXDevTool setDebug:YES];
-//    [WXDevTool launchDevToolDebugWithUrl:@"ws://172.16.150.123:8088/debugProxy/native"];
+    [WXDevTool setDebug:YES];
+    [WXDevTool launchDevToolDebugWithUrl:@"ws://192.168.1.109:8088/debugProxy/native"];
 }
 
 @end

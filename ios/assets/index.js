@@ -52,21 +52,21 @@
 
 	var _App2 = _interopRequireDefault(_App);
 
-	var _router = __webpack_require__(9);
+	var _router = __webpack_require__(5);
 
 	var _router2 = _interopRequireDefault(_router);
 
-	var _store = __webpack_require__(50);
+	var _store = __webpack_require__(73);
 
 	var _store2 = _interopRequireDefault(_store);
 
-	var _vuexRouterSync = __webpack_require__(55);
+	var _vuexRouterSync = __webpack_require__(78);
 
-	var _filters = __webpack_require__(56);
+	var _filters = __webpack_require__(79);
 
 	var filters = _interopRequireWildcard(_filters);
 
-	var _mixins = __webpack_require__(57);
+	var _mixins = __webpack_require__(80);
 
 	var _mixins2 = _interopRequireDefault(_mixins);
 
@@ -101,7 +101,7 @@
 	__vue_exports__ = __webpack_require__(3)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(8)
+	var __vue_template__ = __webpack_require__(4)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -113,7 +113,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/App.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/App.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -131,147 +131,16 @@
 /***/ function(module, exports) {
 
 	module.exports = {
-	  "wrapper": {
-	    "alignItems": "center",
-	    "height": 100
-	  },
-	  "text": {
-	    "fontSize": 50,
-	    "textAlign": "center",
-	    "color": "#41B883"
-	  },
 	  "cnt": {
-	    "width": 100
+	    "width": 750
 	  }
 	}
 
 /***/ },
 /* 3 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _appHeader = __webpack_require__(4);
-
-	var _appHeader2 = _interopRequireDefault(_appHeader);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = {
-	  components: {
-	    AppHeader: _appHeader2.default
-	  }
-	}; //
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-
-/***/ },
-/* 4 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_exports__, __vue_options__
-	var __vue_styles__ = []
-
-	/* styles */
-	__vue_styles__.push(__webpack_require__(5)
-	)
-
-	/* script */
-	__vue_exports__ = __webpack_require__(6)
-
-	/* template */
-	var __vue_template__ = __webpack_require__(7)
-	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-	if (
-	  typeof __vue_exports__.default === "object" ||
-	  typeof __vue_exports__.default === "function"
-	) {
-	if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-	__vue_options__ = __vue_exports__ = __vue_exports__.default
-	}
-	if (typeof __vue_options__ === "function") {
-	  __vue_options__ = __vue_options__.options
-	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/components/app-header.vue"
-	__vue_options__.render = __vue_template__.render
-	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__.style = __vue_options__.style || {}
-	__vue_styles__.forEach(function (module) {
-	for (var name in module) {
-	__vue_options__.style[name] = module[name]
-	}
-	})
-
-	module.exports = __vue_exports__
-
-
-/***/ },
-/* 5 */
 /***/ function(module, exports) {
 
-	module.exports = {
-	  "header": {
-	    "width": 100,
-	    "position": "relative",
-	    "top": 0,
-	    "left": 0,
-	    "height": 120,
-	    "marginBottom": 3,
-	    "borderBottomWidth": 2,
-	    "borderBottomStyle": "solid",
-	    "borderBottomColor": "#0066FF",
-	    "backgroundColor": "#0099FF"
-	  },
-	  "logo": {
-	    "position": "relative",
-	    "width": 50,
-	    "height": 50,
-	    "top": 35,
-	    "left": 35,
-	    "color": "#ffffff",
-	    "zIndex": 10
-	  },
-	  "image": {
-	    "width": 44,
-	    "height": 44
-	  },
-	  "text": {
-	    "position": "relative",
-	    "top": -20,
-	    "fontSize": 50,
-	    "color": "#ffffff"
-	  }
-	}
-
-/***/ },
-/* 6 */
-/***/ function(module, exports) {
-
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -282,95 +151,34 @@
 	//
 	//
 	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
 
 	exports.default = {
-	  data: function data() {
-	    return {
-	      target: 'weex-demo'
-	    };
+	  methods: {
+	    back: function back() {
+	      this.$router.back();
+	    }
 	  }
 	};
 
 /***/ },
-/* 7 */
+/* 4 */
 /***/ function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
-	    staticClass: ["header"]
-	  }, [_h('div', {
-	    staticClass: ["logo"],
+	  return _c('div', {
 	    on: {
-	      "click": function($event) {
-	        _vm.jump('/')
-	      }
+	      "androidback": _vm.back
 	    }
-	  }, [_h('image', {
-	    staticClass: ["image"],
-	    attrs: {
-	      "src": "http://localhost:3000/images/back.png"
-	    }
-	  })]), _h('text', {
-	    staticClass: ["text"]
-	  }, [_vm._s(_vm.target)])])
-	},staticRenderFns: []}
-	module.exports.render._withStripped = true
-
-/***/ },
-/* 8 */
-/***/ function(module, exports) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
-	    staticClass: ["wrapper"]
-	  }, [_h('app-header'), _h('router-view', {
+	  }, [_c('router-view', {
 	    staticStyle: {
 	      flex: "1"
 	    }
-	  })])
+	  })], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 
 /***/ },
-/* 9 */
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -379,11 +187,11 @@
 	    value: true
 	});
 
-	var _vueRouter = __webpack_require__(10);
+	var _vueRouter = __webpack_require__(6);
 
 	var _vueRouter2 = _interopRequireDefault(_vueRouter);
 
-	var _loginPage = __webpack_require__(12);
+	var _loginPage = __webpack_require__(8);
 
 	var _loginPage2 = _interopRequireDefault(_loginPage);
 
@@ -411,17 +219,25 @@
 
 	var _changeNet2 = _interopRequireDefault(_changeNet);
 
-	var _modal = __webpack_require__(38);
+	var _modal = __webpack_require__(37);
 
 	var _modal2 = _interopRequireDefault(_modal);
 
-	var _picker = __webpack_require__(42);
+	var _picker = __webpack_require__(41);
 
 	var _picker2 = _interopRequireDefault(_picker);
 
-	var _getUser = __webpack_require__(46);
+	var _getUser = __webpack_require__(45);
 
 	var _getUser2 = _interopRequireDefault(_getUser);
+
+	var _navgator = __webpack_require__(49);
+
+	var _navgator2 = _interopRequireDefault(_navgator);
+
+	var _test = __webpack_require__(69);
+
+	var _test2 = _interopRequireDefault(_test);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -429,11 +245,11 @@
 
 	exports.default = new _vueRouter2.default({
 	    // mode: 'abstract',
-	    routes: [{ path: '/index', component: _index2.default }, { path: '/loginPage', component: _loginPage2.default }, { path: '/longlist', component: _longlist2.default }, { path: '/storage', component: _storage2.default }, { path: '/router', component: _router2.default }, { path: '/router/taobao', component: _routerTaobao2.default }, { path: '/changeNet', component: _changeNet2.default }, { path: '/modal', component: _modal2.default }, { path: '/picker', component: _picker2.default }, { path: '/getUser', component: _getUser2.default }, { path: '/', redirect: '/index' }]
+	    routes: [{ path: '/index', component: _index2.default }, { path: '/loginPage', component: _loginPage2.default }, { path: '/longlist', component: _longlist2.default }, { path: '/storage', component: _storage2.default }, { path: '/router', component: _router2.default }, { path: '/router/taobao', component: _routerTaobao2.default }, { path: '/changeNet', component: _changeNet2.default }, { path: '/modal', component: _modal2.default }, { path: '/picker', component: _picker2.default }, { path: '/getUser', component: _getUser2.default }, { path: '/navigator', component: _navgator2.default }, { path: '/test', component: _test2.default }, { path: '/', redirect: '/index' }]
 	});
 
 /***/ },
-/* 10 */
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -2715,10 +2531,10 @@
 
 	module.exports = VueRouter;
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(11)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
 
 /***/ },
-/* 11 */
+/* 7 */
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -2904,18 +2720,18 @@
 
 
 /***/ },
-/* 12 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = []
 
 	/* styles */
-	__vue_styles__.push(__webpack_require__(13)
+	__vue_styles__.push(__webpack_require__(9)
 	)
 
 	/* script */
-	__vue_exports__ = __webpack_require__(14)
+	__vue_exports__ = __webpack_require__(10)
 
 	/* template */
 	var __vue_template__ = __webpack_require__(15)
@@ -2930,7 +2746,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/login-page.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/login-page.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -2944,24 +2760,56 @@
 
 
 /***/ },
-/* 13 */
+/* 9 */
 /***/ function(module, exports) {
 
 	module.exports = {
-	  "cnt": {
-	    "marginTop": 40
+	  "input": {
+	    "height": 80,
+	    "margin": 30,
+	    "display": "block",
+	    "borderWidth": 2,
+	    "borderColor": "#FF0000",
+	    "justifyContent": "center",
+	    "textIndent": 6
+	  },
+	  "input-item": {
+	    "color": "#FF0000",
+	    "padding": 30
+	  },
+	  "button": {
+	    "height": 60,
+	    "margin": 30,
+	    "backgroundColor": "#008000",
+	    "alignItems": "center",
+	    "justifyContent": "center",
+	    "fontSize": 40
 	  }
 	}
 
 /***/ },
-/* 14 */
-/***/ function(module, exports) {
+/* 10 */
+/***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+
+	var _appHeader = __webpack_require__(11);
+
+	var _appHeader2 = _interopRequireDefault(_appHeader);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 	//
 	//
 	//
@@ -2974,6 +2822,9 @@
 	var modal = weex.requireModule('modal');
 	var storage = weex.requireModule('storage');
 	exports.default = {
+	  components: {
+	    AppHeader: _appHeader2.default
+	  },
 	  data: function data() {
 	    return {
 	      name: "",
@@ -2998,7 +2849,6 @@
 	            duration: 0.3
 	          });
 	          storage.setItem('username', res.data.result.name);
-	          debugger;
 	        } else {
 	          modal.toast({
 	            message: '用户信息验证失败',
@@ -3006,37 +2856,184 @@
 	          });
 	        }
 	      });
+	    },
+	    focus: function focus() {
+	      event.target.focus();
 	    }
 	  }
 
 	};
 
 /***/ },
-/* 15 */
+/* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_exports__, __vue_options__
+	var __vue_styles__ = []
+
+	/* styles */
+	__vue_styles__.push(__webpack_require__(12)
+	)
+
+	/* script */
+	__vue_exports__ = __webpack_require__(13)
+
+	/* template */
+	var __vue_template__ = __webpack_require__(14)
+	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+	if (
+	  typeof __vue_exports__.default === "object" ||
+	  typeof __vue_exports__.default === "function"
+	) {
+	if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+	__vue_options__ = __vue_exports__ = __vue_exports__.default
+	}
+	if (typeof __vue_options__ === "function") {
+	  __vue_options__ = __vue_options__.options
+	}
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/components/app-header.vue"
+	__vue_options__.render = __vue_template__.render
+	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+	__vue_options__.style = __vue_options__.style || {}
+	__vue_styles__.forEach(function (module) {
+	for (var name in module) {
+	__vue_options__.style[name] = module[name]
+	}
+	})
+
+	module.exports = __vue_exports__
+
+
+/***/ },
+/* 12 */
+/***/ function(module, exports) {
+
+	module.exports = {
+	  "header": {
+	    "position": "relative",
+	    "top": 0,
+	    "left": 0,
+	    "height": 120,
+	    "marginBottom": 3,
+	    "borderBottomWidth": 2,
+	    "borderBottomStyle": "solid",
+	    "borderBottomColor": "#0066FF",
+	    "backgroundColor": "#0099FF"
+	  },
+	  "logo": {
+	    "position": "relative",
+	    "width": 50,
+	    "height": 50,
+	    "top": 35,
+	    "left": 35,
+	    "color": "#ffffff",
+	    "zIndex": 10
+	  },
+	  "image": {
+	    "width": 44,
+	    "height": 44
+	  },
+	  "text": {
+	    "position": "relative",
+	    "top": -20,
+	    "fontSize": 50,
+	    "color": "#ffffff",
+	    "textAlign": "center"
+	  }
+	}
+
+/***/ },
+/* 13 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+	  data: function data() {
+	    return {
+	      target: 'weex-demo'
+	    };
+	  }
+	};
+
+/***/ },
+/* 14 */
 /***/ function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
-	    staticClass: ["cnt"]
-	  }, [_h('input', {
-	    ref: "name",
-	    attrs: {
-	      "placeholder": "name",
-	      "autofocus": "true"
-	    }
-	  }, [_h('input', {
-	    ref: "password",
-	    attrs: {
-	      "placeholder": "password",
-	      "autofocus": "true"
-	    }
-	  }, [_h('button', {
+	  return _c('div', {
+	    staticClass: ["header"]
+	  }, [_c('div', {
+	    staticClass: ["logo"],
 	    on: {
-	      "click": _vm.login
+	      "click": function($event) {
+	        _vm.jump('/')
+	      }
 	    }
-	  }, ["确认"])])])])
+	  }, [_c('image', {
+	    staticClass: ["image"],
+	    attrs: {
+	      "src": "http://olgl52s84.bkt.clouddn.com/back.png"
+	    }
+	  })]), _c('text', {
+	    staticClass: ["text"]
+	  }, [_vm._v(_vm._s(_vm.target))])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
+
+/***/ },
+/* 15 */
+/***/ function(module, exports) {
+
+	module.exports={render:function(){},staticRenderFns:[]}
 
 /***/ },
 /* 16 */
@@ -3065,7 +3062,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/index.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/index.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -3083,23 +3080,12 @@
 /***/ function(module, exports) {
 
 	module.exports = {
-	  "cnt": {
-	    "width": 100,
-	    "display": "block",
-	    "position": "relative",
-	    "overflowX": "hidden",
-	    "overflowY": "scroll"
-	  },
 	  "list": {
-	    "display": "inline-block",
-	    "width": 100
+	    "display": "inline-block"
 	  },
 	  "panel": {
-	    "width": 90,
 	    "height": 100,
-	    "marginLeft": 5,
-	    "marginTop": 35,
-	    "marginBottom": 35,
+	    "margin": 30,
 	    "flexDirection": "column",
 	    "justifyContent": "center",
 	    "borderWidth": 2,
@@ -3112,26 +3098,24 @@
 
 /***/ },
 /* 18 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
+
+	var _appHeader = __webpack_require__(11);
+
+	var _appHeader2 = _interopRequireDefault(_appHeader);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	exports.default = {
+	  components: {
+	    AppHeader: _appHeader2.default
+	  },
 	  data: function data() {
 	    return {
 
@@ -3171,36 +3155,60 @@
 	        text: '模态框',
 	        name: 'modal',
 	        url: '/modal'
+	      }, {
+	        text: 'navigator',
+	        name: 'navigator',
+	        url: '/navigator'
+	      }, {
+	        text: '测试功能页面',
+	        name: 'test',
+	        url: '/test'
 	      }]
 	    };
 	  }
-	};
+	}; //
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 
 /***/ },
 /* 19 */
 /***/ function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
-	    staticStyle: {
-	      width: "100%"
+	  return _c('div', {
+	    appendAsTree: true,
+	    attrs: {
+	      "append": "tree"
 	    }
-	  }, [_h('list', {
+	  }, [_c('app-header'), _c('list', {
 	    staticClass: ["list"]
-	  }, [_vm._l((_vm.listData), function(num) {
-	    return _h('cell', {
-	      staticClass: ["cell"]
-	    }, [_h('div', {
+	  }, _vm._l((_vm.listData), function(num) {
+	    return _c('cell', {
+	      staticClass: ["cell"],
+	      appendAsTree: true,
+	      attrs: {
+	        "append": "tree"
+	      }
+	    }, [_c('div', {
 	      staticClass: ["panel"],
 	      on: {
 	        "click": function($event) {
 	          _vm.jump(("" + (num.url)))
 	        }
 	      }
-	    }, [_h('text', {
+	    }, [_c('text', {
 	      staticClass: ["text"]
-	    }, [_vm._s(num.text)])])])
-	  })])])
+	    }, [_vm._v(_vm._s(num.text))])])])
+	  }))], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 
@@ -3231,7 +3239,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/longlist.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/longlist.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -3250,7 +3258,6 @@
 
 	module.exports = {
 	  "scroller": {
-	    "width": 100,
 	    "borderWidth": 3,
 	    "borderStyle": "solid",
 	    "borderColor": "rgb(162,217,192)",
@@ -3293,13 +3300,21 @@
 
 /***/ },
 /* 22 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+
+	var _appHeader = __webpack_require__(11);
+
+	var _appHeader2 = _interopRequireDefault(_appHeader);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	//
 	//
 	//
 	//
@@ -3317,6 +3332,9 @@
 
 	var dom = weex.requireModule('dom');
 	exports.default = {
+	  components: {
+	    AppHeader: _appHeader2.default
+	  },
 	  data: function data() {
 	    return {
 	      rows: []
@@ -3347,35 +3365,35 @@
 /***/ function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
+	  return _c('div', {
 	    staticClass: ["cnt"]
-	  }, [_h('text', {
+	  }, [_c('app-header'), _c('text', {
 	    staticClass: ["text"]
-	  }, ["长列表"]), _h('scroller', {
+	  }, [_vm._v("长列表")]), _c('scroller', {
 	    staticClass: ["scroller"]
-	  }, [_vm._l((_vm.rows), function(name, index) {
-	    return _h('div', {
+	  }, _vm._l((_vm.rows), function(name, index) {
+	    return _c('div', {
 	      ref: 'item' + index,
 	      refInFor: true,
 	      staticClass: ["row"]
-	    }, [_h('text', {
+	    }, [_c('text', {
 	      ref: 'text' + index,
 	      refInFor: true,
 	      staticClass: ["text"]
-	    }, [_vm._s(name)])])
-	  })]), _h('div', {
+	    }, [_vm._v(_vm._s(name))])])
+	  })), _c('div', {
 	    staticClass: ["group"]
-	  }, [_h('text', {
+	  }, [_c('text', {
 	    staticClass: ["button"],
 	    on: {
 	      "click": _vm.goto10
 	    }
-	  }, ["Go to 10"]), _h('text', {
+	  }, [_vm._v("Go to 10")]), _c('text', {
 	    staticClass: ["button"],
 	    on: {
 	      "click": _vm.goto20
 	    }
-	  }, ["Go to 20"])])])
+	  }, [_vm._v("Go to 20")])])], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 
@@ -3406,7 +3424,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/storage.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/storage.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -3475,13 +3493,23 @@
 
 /***/ },
 /* 26 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+
+	var _appHeader = __webpack_require__(11);
+
+	var _appHeader2 = _interopRequireDefault(_appHeader);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	//
+	//
+	//
 	//
 	//
 	//
@@ -3510,6 +3538,9 @@
 	var storage = weex.requireModule('storage');
 	var modal = weex.requireModule('modal');
 	exports.default = {
+	  components: {
+	    AppHeader: _appHeader2.default
+	  },
 	  data: function data() {
 	    return {
 	      msg: '',
@@ -3523,7 +3554,7 @@
 	    setItem: function setItem() {
 	      var _this = this;
 
-	      storage.setItem('name', this.$refs.input.value, function (event) {
+	      storage.setItem('name', this.msg, function (event) {
 	        _this.state = 'set success';
 	        console.log('set success');
 	      });
@@ -3553,6 +3584,9 @@
 	          });
 	        }
 	      });
+	    },
+	    onchange: function onchange(event) {
+	      this.result = event.value;
 	    }
 	  }
 	};
@@ -3561,61 +3595,7 @@
 /* 27 */
 /***/ function(module, exports) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
-	    staticClass: ["list"]
-	  }, [_h('div', {
-	    staticClass: ["group", "center"]
-	  }, [_h('div', {
-	    staticClass: ["panel"]
-	  }, [_h('text', {
-	    staticClass: ["text"]
-	  }, [_vm._s(_vm.state)])])]), _h('input', {
-	    ref: "input",
-	    staticClass: ["input"],
-	    attrs: {
-	      "autofocus": "true",
-	      "type": "text",
-	      "value": (_vm.msg)
-	    },
-	    on: {
-	      "change": function($event) {
-	        _vm.msg = $event.target.attr.value
-	      }
-	    }
-	  }, [_h('div', {
-	    staticClass: ["group"]
-	  }, [_h('div', {
-	    staticClass: ["panel"]
-	  }, [_h('text', {
-	    staticClass: ["text"],
-	    on: {
-	      "click": _vm.setItem
-	    }
-	  }, ["set"])]), _h('div', {
-	    staticClass: ["panel"]
-	  }, [_h('text', {
-	    staticClass: ["text"],
-	    on: {
-	      "click": _vm.getItem
-	    }
-	  }, ["get"])]), _h('div', {
-	    staticClass: ["panel"]
-	  }, [_h('text', {
-	    staticClass: ["text"],
-	    on: {
-	      "click": _vm.removeItem
-	    }
-	  }, ["remove"])]), _h('div', {
-	    staticClass: ["panel"]
-	  }, [_h('text', {
-	    staticClass: ["text"],
-	    on: {
-	      "click": _vm.getAll
-	    }
-	  }, ["all"])])])])])
-	},staticRenderFns: []}
-	module.exports.render._withStripped = true
+	module.exports={render:function(){},staticRenderFns:[]}
 
 /***/ },
 /* 28 */
@@ -3644,7 +3624,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/router.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/router.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -3666,9 +3646,8 @@
 	    "minHeight": 100
 	  },
 	  "button": {
-	    "margin": 30,
 	    "fontSize": 60,
-	    "width": 90,
+	    "margin": 30,
 	    "textAlign": "center",
 	    "paddingTop": 20,
 	    "paddingBottom": 20,
@@ -3695,6 +3674,8 @@
 	//
 	//
 	//
+	//
+	//
 
 	var navigator = weex.requireModule('navigator');
 	var modal = weex.requireModule('modal');
@@ -3702,7 +3683,7 @@
 	exports.default = {
 
 	  methods: {
-	    jump: function jump(url) {
+	    jumpTo: function jumpTo(url) {
 	      navigator.push({
 	        url: url,
 	        animated: "false"
@@ -3716,23 +3697,13 @@
 /***/ function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
+	  return _c('div', {
 	    staticClass: ["cnt"]
-	  }, [_h('text', {
-	    staticClass: ["button"],
-	    on: {
-	      "click": function($event) {
-	        _vm.jump("/#/index")
-	      }
+	  }, [_c('a', {
+	    attrs: {
+	      "href": "https://www.taobao.com/"
 	    }
-	  }, ["跳到app内部首页"]), _h('text', {
-	    staticClass: ["button"],
-	    on: {
-	      "click": function($event) {
-	        _vm.jump("/#/router/taobao")
-	      }
-	    }
-	  }, ["跳到app外部页面"])])
+	  }, [_vm._v("跳到淘宝")])], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 
@@ -3759,7 +3730,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/router-taobao.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/router-taobao.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -3799,7 +3770,7 @@
 /***/ function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('web', {
+	  return _c('web', {
 	    ref: "webview",
 	    staticClass: ["webview"],
 	    attrs: {
@@ -3816,11 +3787,8 @@
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = []
 
-	/* script */
-	__vue_exports__ = __webpack_require__(36)
-
 	/* template */
-	var __vue_template__ = __webpack_require__(37)
+	var __vue_template__ = __webpack_require__(36)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -3832,7 +3800,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/change-net.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/change-net.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -3849,44 +3817,31 @@
 /* 36 */
 /***/ function(module, exports) {
 
-	//
-	//
-	//
-	//
-	//
-	"use strict";
-
-/***/ },
-/* 37 */
-/***/ function(module, exports) {
-
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _vm._m(0)
 	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
-	    staticStyle: {
-	      width: "100%"
-	    }
-	  }, [_h('text', ["change network"])])
+	  return _c('div', {
+	    staticClass: ["cnt"]
+	  }, [_c('text', [_vm._v("change network")])])
 	}]}
 	module.exports.render._withStripped = true
 
 /***/ },
-/* 38 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = []
 
 	/* styles */
-	__vue_styles__.push(__webpack_require__(39)
+	__vue_styles__.push(__webpack_require__(38)
 	)
 
 	/* script */
-	__vue_exports__ = __webpack_require__(40)
+	__vue_exports__ = __webpack_require__(39)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(41)
+	var __vue_template__ = __webpack_require__(40)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -3898,7 +3853,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/modal.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/modal.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -3912,7 +3867,7 @@
 
 
 /***/ },
-/* 39 */
+/* 38 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -3937,14 +3892,22 @@
 	}
 
 /***/ },
-/* 40 */
-/***/ function(module, exports) {
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+
+	var _appHeader = __webpack_require__(11);
+
+	var _appHeader2 = _interopRequireDefault(_appHeader);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	//
 	//
 	//
 	//
@@ -3958,7 +3921,9 @@
 
 	var modal = weex.requireModule('modal');
 	exports.default = {
-
+	  components: {
+	    AppHeader: _appHeader2.default
+	  },
 	  methods: {
 	    showToast: function showToast(event) {
 	      console.log('will show toast');
@@ -3993,52 +3958,52 @@
 	};
 
 /***/ },
-/* 41 */
+/* 40 */
 /***/ function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
+	  return _c('div', {
 	    staticClass: ["cnt"]
-	  }, [_h('div', [_h('text', {
+	  }, [_c('app-header'), _c('div', [_c('text', {
 	    staticClass: ["button"],
 	    on: {
 	      "click": _vm.showToast
 	    }
-	  }, ["Toast"]), _h('text', {
+	  }, [_vm._v("Toast")]), _c('text', {
 	    staticClass: ["button"],
 	    on: {
 	      "click": _vm.showAlert
 	    }
-	  }, ["Alert"]), _h('text', {
+	  }, [_vm._v("Alert")]), _c('text', {
 	    staticClass: ["button"],
 	    on: {
 	      "click": _vm.showConfirm
 	    }
-	  }, ["Confirm"]), _h('text', {
+	  }, [_vm._v("Confirm")]), _c('text', {
 	    staticClass: ["button"],
 	    on: {
 	      "click": _vm.showPrompt
 	    }
-	  }, ["Prompt"])])])
+	  }, [_vm._v("Prompt")])])], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 
 /***/ },
-/* 42 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = []
 
 	/* styles */
-	__vue_styles__.push(__webpack_require__(43)
+	__vue_styles__.push(__webpack_require__(42)
 	)
 
 	/* script */
-	__vue_exports__ = __webpack_require__(44)
+	__vue_exports__ = __webpack_require__(43)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(45)
+	var __vue_template__ = __webpack_require__(44)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -4050,7 +4015,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/picker.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/picker.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -4064,7 +4029,7 @@
 
 
 /***/ },
-/* 43 */
+/* 42 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -4101,7 +4066,7 @@
 	}
 
 /***/ },
-/* 44 */
+/* 43 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -4145,45 +4110,45 @@
 	};
 
 /***/ },
-/* 45 */
+/* 44 */
 /***/ function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
+	  return _c('div', {
 	    staticClass: ["cnt"]
-	  }, [_h('div', {
+	  }, [_c('div', {
 	    staticClass: ["group"]
-	  }, [_h('text', {
+	  }, [_c('text', {
 	    staticClass: ["label"]
-	  }, ["Time: "]), _h('text', {
+	  }, [_vm._v("Time: ")]), _c('text', {
 	    staticClass: ["title"]
-	  }, [_vm._s(_vm.value)])]), _h('div', {
+	  }, [_vm._v(_vm._s(_vm.value))])]), _c('div', {
 	    staticClass: ["group"]
-	  }, [_h('text', {
+	  }, [_c('text', {
 	    staticClass: ["button"],
 	    on: {
 	      "click": _vm.pickTime
 	    }
-	  }, ["Pick Time"])])])
+	  }, [_vm._v("Pick Time")])])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 
 /***/ },
-/* 46 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = []
 
 	/* styles */
-	__vue_styles__.push(__webpack_require__(47)
+	__vue_styles__.push(__webpack_require__(46)
 	)
 
 	/* script */
-	__vue_exports__ = __webpack_require__(48)
+	__vue_exports__ = __webpack_require__(47)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(49)
+	var __vue_template__ = __webpack_require__(48)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -4195,7 +4160,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/hl/Desktop/weexDemo/WeexDemoSong/test-weex/src/views/getUser.vue"
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/getUser.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	__vue_options__.style = __vue_options__.style || {}
@@ -4209,29 +4174,44 @@
 
 
 /***/ },
-/* 47 */
+/* 46 */
 /***/ function(module, exports) {
 
 	module.exports = {
 	  "cnt": {
-	    "width": 100,
 	    "textAlign": "center"
+	  },
+	  "button": {
+	    "height": 60,
+	    "margin": 30,
+	    "fontSize": 60,
+	    "backgroundColor": "#FF0000",
+	    "justifyContent": "center",
+	    "alignItems": "center"
 	  },
 	  "ml": {
 	    "display": "block",
-	    "marginLeft": 10
+	    "marginLeft": 30
 	  }
 	}
 
 /***/ },
-/* 48 */
-/***/ function(module, exports) {
+/* 47 */
+/***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+
+	var _appHeader = __webpack_require__(11);
+
+	var _appHeader2 = _interopRequireDefault(_appHeader);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	//
 	//
 	//
 	//
@@ -4243,6 +4223,9 @@
 
 	var storage = weex.requireModule('storage');
 	exports.default = {
+	  components: {
+	    AppHeader: _appHeader2.default
+	  },
 	  data: function data() {
 	    return {
 	      userName: "",
@@ -4263,24 +4246,1169 @@
 	};
 
 /***/ },
-/* 49 */
+/* 48 */
 /***/ function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _h('div', {
+	  return _c('div', {
 	    staticClass: ["cnt"]
-	  }, [_h('button', {
+	  }, [_c('app-header'), _c('button', {
+	    staticClass: ["button"],
 	    on: {
 	      "click": _vm.getUserInfo
 	    }
-	  }, ["获取当前用户信息"]), (_vm.isShow) ? _h('div', {
+	  }, [_vm._v("获取当前用户信息")]), (_vm.isShow) ? _c('div', {
 	    staticClass: ["ml"]
-	  }, [_h('text', ["用户名：" + _vm._s(_vm.userName)])]) : _vm._e()])
+	  }, [_c('text', [_vm._v("用户名：" + _vm._s(_vm.userName))])]) : _vm._e()], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 
 /***/ },
+/* 49 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_exports__, __vue_options__
+	var __vue_styles__ = []
+
+	/* script */
+	__vue_exports__ = __webpack_require__(50)
+
+	/* template */
+	var __vue_template__ = __webpack_require__(68)
+	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+	if (
+	  typeof __vue_exports__.default === "object" ||
+	  typeof __vue_exports__.default === "function"
+	) {
+	if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+	__vue_options__ = __vue_exports__ = __vue_exports__.default
+	}
+	if (typeof __vue_options__ === "function") {
+	  __vue_options__ = __vue_options__.options
+	}
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/navgator.vue"
+	__vue_options__.render = __vue_template__.render
+	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+	__vue_options__.style = __vue_options__.style || {}
+	__vue_styles__.forEach(function (module) {
+	for (var name in module) {
+	__vue_options__.style[name] = module[name]
+	}
+	})
+
+	module.exports = __vue_exports__
+
+
+/***/ },
 /* 50 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	var navigator = weex.requireModule('navigator');
+	var getBaseURL = __webpack_require__(51).getBaseURL;
+	module.exports = {
+	  data: function data() {
+	    return {
+	      navBarHeight: 88,
+	      title: 'Navigator',
+	      dir: 'examples',
+	      baseURL: ''
+	    };
+	  },
+	  components: {
+	    panel: __webpack_require__(52),
+	    navpage: __webpack_require__(56),
+	    button: __webpack_require__(64)
+	  },
+	  created: function created() {
+	    this.$getConfig(function (config) {
+	      var env = config.env;
+	      if (env.platform == 'iOS') {
+	        var scale = env.scale;
+	        var deviceWidth = env.deviceWidth / scale;
+	        this.navBarHeight = 64.0 * 750.0 / deviceWidth;
+	      }
+	    }.bind(this));
+	    this.baseURL = getBaseURL(this);
+	  },
+	  methods: {
+	    naviBarLeftItemClick: function naviBarLeftItemClick(e) {
+	      modal.toast({
+	        message: 'naviBarLeftItemClick',
+	        duration: 2
+	      });
+	    },
+	    naviBarRightItemClick: function naviBarRightItemClick(e) {
+	      modal.toast({
+	        message: 'naviBarRightItemClick',
+	        duration: 2
+	      });
+	    },
+	    push: function push() {
+	      var params = {
+	        'url': this.baseURL + '/components/navigator.js?test=1',
+	        'animated': 'true'
+	      };
+	      navigator.push(params, function () {});
+	    },
+	    pop: function pop() {
+	      var params = {
+	        'url': this.baseURL + '../components/navigator.js?test=1',
+	        'animated': 'true'
+	      };
+	      navigator.pop(params, function () {});
+	    }
+	  }
+	};
+
+/***/ },
+/* 51 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+	exports.getBaseURL = function (vm) {
+	    var bundleUrl = vm.$getConfig().bundleUrl;
+	    var nativeBase;
+	    var isAndroidAssets = bundleUrl.indexOf('your_current_IP') >= 0 || bundleUrl.indexOf('file://assets/') >= 0;
+	    var isiOSAssets = bundleUrl.indexOf('file:///') >= 0 && bundleUrl.indexOf('WeexDemo.app') > 0;
+	    if (isAndroidAssets) {
+	        nativeBase = 'file://assets/';
+	    } else if (isiOSAssets) {
+	        // file:///var/mobile/Containers/Bundle/Application/{id}/WeexDemo.app/
+	        // file:///Users/{user}/Library/Developer/CoreSimulator/Devices/{id}/data/Containers/Bundle/Application/{id}/WeexDemo.app/
+	        nativeBase = bundleUrl.substring(0, bundleUrl.lastIndexOf('/') + 1);
+	    } else {
+	        var host = 'localhost:12580';
+	        var matches = /\/\/([^\/]+?)\//.exec(vm.$getConfig().bundleUrl);
+	        if (matches && matches.length >= 2) {
+	            host = matches[1];
+	        }
+	        nativeBase = 'http://' + host + '/' + vm.dir + '/build/';
+	    }
+	    var h5Base = './vue.html?page=./' + vm.dir + '/build/';
+	    // in Native
+	    var base = nativeBase;
+	    if ((typeof window === 'undefined' ? 'undefined' : _typeof(window)) === 'object') {
+	        // in Browser or WebView
+	        base = h5Base;
+	    }
+	    return base;
+	};
+
+/***/ },
+/* 52 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_exports__, __vue_options__
+	var __vue_styles__ = []
+
+	/* styles */
+	__vue_styles__.push(__webpack_require__(53)
+	)
+
+	/* script */
+	__vue_exports__ = __webpack_require__(54)
+
+	/* template */
+	var __vue_template__ = __webpack_require__(55)
+	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+	if (
+	  typeof __vue_exports__.default === "object" ||
+	  typeof __vue_exports__.default === "function"
+	) {
+	if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+	__vue_options__ = __vue_exports__ = __vue_exports__.default
+	}
+	if (typeof __vue_options__ === "function") {
+	  __vue_options__ = __vue_options__.options
+	}
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/components/panel.vue"
+	__vue_options__.render = __vue_template__.render
+	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+	__vue_options__.style = __vue_options__.style || {}
+	__vue_styles__.forEach(function (module) {
+	for (var name in module) {
+	__vue_options__.style[name] = module[name]
+	}
+	})
+
+	module.exports = __vue_exports__
+
+
+/***/ },
+/* 53 */
+/***/ function(module, exports) {
+
+	module.exports = {
+	  "panel": {
+	    "marginBottom": 20,
+	    "backgroundColor": "#ffffff",
+	    "borderColor": "#dddddd",
+	    "borderWidth": 1
+	  },
+	  "panel-primary": {
+	    "borderColor": "rgb(40,96,144)"
+	  },
+	  "panel-success": {
+	    "borderColor": "rgb(76,174,76)"
+	  },
+	  "panel-info": {
+	    "borderColor": "rgb(70,184,218)"
+	  },
+	  "panel-warning": {
+	    "borderColor": "rgb(238,162,54)"
+	  },
+	  "panel-danger": {
+	    "borderColor": "rgb(212,63,58)"
+	  },
+	  "panel-header": {
+	    "backgroundColor": "#f5f5f5",
+	    "fontSize": 40,
+	    "color": "#333333"
+	  },
+	  "panel-header-primary": {
+	    "backgroundColor": "rgb(40,96,144)",
+	    "color": "#ffffff"
+	  },
+	  "panel-header-success": {
+	    "backgroundColor": "rgb(92,184,92)",
+	    "color": "#ffffff"
+	  },
+	  "panel-header-info": {
+	    "backgroundColor": "rgb(91,192,222)",
+	    "color": "#ffffff"
+	  },
+	  "panel-header-warning": {
+	    "backgroundColor": "rgb(240,173,78)",
+	    "color": "#ffffff"
+	  },
+	  "panel-header-danger": {
+	    "backgroundColor": "rgb(217,83,79)",
+	    "color": "#ffffff"
+	  }
+	}
+
+/***/ },
+/* 54 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	module.exports = {
+	  props: {
+	    type: {
+	      default: 'default'
+	    },
+	    title: {
+	      default: ''
+	    },
+	    paddingBody: {
+	      default: 20
+	    },
+	    paddingHead: {
+	      default: 20
+	    },
+	    dataClass: {
+	      default: ''
+	    }, // FIXME transfer class
+	    border: {
+	      default: 0
+	    }
+	  }
+	};
+
+/***/ },
+/* 55 */
+/***/ function(module, exports) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    class: ['panel', 'panel-' + _vm.type],
+	    style: {
+	      borderWidth: _vm.border
+	    }
+	  }, [_c('text', {
+	    class: ['panel-header', 'panel-header-' + _vm.type],
+	    style: {
+	      paddingTop: _vm.paddingHead,
+	      paddingBottom: _vm.paddingHead,
+	      paddingLeft: _vm.paddingHead * 1.5,
+	      paddingRight: _vm.paddingHead * 1.5
+	    }
+	  }, [_vm._v(_vm._s(_vm.title))]), _c('div', {
+	    class: ['panel-body', 'panel-body-' + _vm.type],
+	    style: {
+	      paddingTop: _vm.paddingBody,
+	      paddingBottom: _vm.paddingBody,
+	      paddingLeft: _vm.paddingBody * 1.5,
+	      paddingRight: _vm.paddingBody * 1.5
+	    }
+	  }, [_vm._t("default")], 2)])
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+
+/***/ },
+/* 56 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_exports__, __vue_options__
+	var __vue_styles__ = []
+
+	/* styles */
+	__vue_styles__.push(__webpack_require__(57)
+	)
+
+	/* script */
+	__vue_exports__ = __webpack_require__(58)
+
+	/* template */
+	var __vue_template__ = __webpack_require__(63)
+	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+	if (
+	  typeof __vue_exports__.default === "object" ||
+	  typeof __vue_exports__.default === "function"
+	) {
+	if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+	__vue_options__ = __vue_exports__ = __vue_exports__.default
+	}
+	if (typeof __vue_options__ === "function") {
+	  __vue_options__ = __vue_options__.options
+	}
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/components/navpage.vue"
+	__vue_options__.render = __vue_template__.render
+	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+	__vue_options__.style = __vue_options__.style || {}
+	__vue_styles__.forEach(function (module) {
+	for (var name in module) {
+	__vue_options__.style[name] = module[name]
+	}
+	})
+
+	module.exports = __vue_exports__
+
+
+/***/ },
+/* 57 */
+/***/ function(module, exports) {
+
+	module.exports = {
+	  "wrapper": {
+	    "position": "absolute",
+	    "top": 0,
+	    "left": 0,
+	    "right": 0,
+	    "bottom": 0,
+	    "width": 750
+	  }
+	}
+
+/***/ },
+/* 58 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	module.exports = {
+	  components: {
+	    navbar: __webpack_require__(59)
+	  },
+	  props: {
+	    dataRole: {
+	      default: 'navbar'
+	    },
+	    backgroundColor: {
+	      default: 'black'
+	    },
+	    height: {
+	      default: 88
+	    },
+	    title: {
+	      default: ""
+	    },
+	    titleColor: {
+	      default: 'black'
+	    },
+	    rightItemSrc: {
+	      default: ''
+	    },
+	    rightItemTitle: {
+	      default: ''
+	    },
+	    rightItemColor: {
+	      default: 'black'
+	    },
+	    leftItemSrc: {
+	      default: ''
+	    },
+	    leftItemTitle: {
+	      default: ''
+	    },
+	    leftItemColor: {
+	      default: 'black'
+	    }
+	  },
+	  methods: {
+	    naviBarRightItemClick: function naviBarRightItemClick(e) {
+	      this.$emit('naviBarRightItemClick', e);
+	    },
+	    naviBarLeftItemClick: function naviBarLeftItemClick(e) {
+	      this.$emit('naviBarLeftItemClick', e);
+	    }
+	  }
+	};
+
+/***/ },
+/* 59 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_exports__, __vue_options__
+	var __vue_styles__ = []
+
+	/* styles */
+	__vue_styles__.push(__webpack_require__(60)
+	)
+
+	/* script */
+	__vue_exports__ = __webpack_require__(61)
+
+	/* template */
+	var __vue_template__ = __webpack_require__(62)
+	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+	if (
+	  typeof __vue_exports__.default === "object" ||
+	  typeof __vue_exports__.default === "function"
+	) {
+	if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+	__vue_options__ = __vue_exports__ = __vue_exports__.default
+	}
+	if (typeof __vue_options__ === "function") {
+	  __vue_options__ = __vue_options__.options
+	}
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/components/navbar.vue"
+	__vue_options__.render = __vue_template__.render
+	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+	__vue_options__.style = __vue_options__.style || {}
+	__vue_styles__.forEach(function (module) {
+	for (var name in module) {
+	__vue_options__.style[name] = module[name]
+	}
+	})
+
+	module.exports = __vue_exports__
+
+
+/***/ },
+/* 60 */
+/***/ function(module, exports) {
+
+	module.exports = {
+	  "container": {
+	    "flexDirection": "row",
+	    "position": "fixed",
+	    "top": 0,
+	    "left": 0,
+	    "right": 0,
+	    "width": 750
+	  },
+	  "right-text": {
+	    "position": "absolute",
+	    "bottom": 28,
+	    "right": 32,
+	    "textAlign": "right",
+	    "fontSize": 32,
+	    "fontFamily": "'Open Sans', sans-serif"
+	  },
+	  "left-text": {
+	    "position": "absolute",
+	    "bottom": 28,
+	    "left": 32,
+	    "textAlign": "left",
+	    "fontSize": 32,
+	    "fontFamily": "'Open Sans', sans-serif"
+	  },
+	  "center-text": {
+	    "position": "absolute",
+	    "bottom": 25,
+	    "left": 172,
+	    "right": 172,
+	    "textAlign": "center",
+	    "fontSize": 36,
+	    "fontWeight": "bold"
+	  },
+	  "left-image": {
+	    "position": "absolute",
+	    "bottom": 20,
+	    "left": 28,
+	    "width": 50,
+	    "height": 50
+	  },
+	  "right-image": {
+	    "position": "absolute",
+	    "bottom": 20,
+	    "right": 28,
+	    "width": 50,
+	    "height": 50
+	  }
+	}
+
+/***/ },
+/* 61 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	module.exports = {
+	  props: {
+	    dataRole: {
+	      default: 'navbar'
+	    },
+	    //导航条背景色
+	    backgroundColor: {
+	      default: 'black'
+	    },
+	    //导航条高度
+	    height: {
+	      default: 88
+	    },
+	    //导航条标题 
+	    title: {
+	      default: ''
+	    },
+	    //导航条标题颜色
+	    titleColor: {
+	      default: 'black'
+	    },
+	    //右侧按钮图片
+	    rightItemSrc: {
+	      default: ''
+	    },
+	    //右侧按钮标题
+	    rightItemTitle: {
+	      default: ''
+	    },
+	    //右侧按钮标题颜色
+	    rightItemColor: {
+	      default: 'black'
+	    },
+	    //左侧按钮图片
+	    leftItemSrc: {
+	      default: ''
+	    },
+	    //左侧按钮标题
+	    leftItemTitle: {
+	      default: ''
+	    },
+	    //左侧按钮颜色
+	    leftItemColor: {
+	      default: 'black'
+	    }
+	  },
+	  methods: {
+	    onclickrightitem: function onclickrightitem(e) {
+	      this.$emit('naviBarRightItemClick');
+	    },
+	    onclickleftitem: function onclickleftitem(e) {
+	      this.$emit('naviBarLeftItemClick');
+	    }
+	  }
+	};
+
+/***/ },
+/* 62 */
+/***/ function(module, exports) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: ["container"],
+	    style: {
+	      height: _vm.height,
+	      backgroundColor: _vm.backgroundColor
+	    },
+	    attrs: {
+	      "dataRole": _vm.dataRole
+	    }
+	  }, [(!_vm.rightItemSrc) ? _c('text', {
+	    staticClass: ["right-text"],
+	    style: {
+	      color: _vm.rightItemColor
+	    },
+	    attrs: {
+	      "naviItemPosition": "right"
+	    },
+	    on: {
+	      "click": _vm.onclickrightitem
+	    }
+	  }, [_vm._v(_vm._s(_vm.rightItemTitle))]) : _vm._e(), (_vm.rightItemSrc) ? _c('image', {
+	    staticClass: ["right-image"],
+	    attrs: {
+	      "naviItemPosition": "right",
+	      "src": _vm.rightItemSrc
+	    },
+	    on: {
+	      "click": _vm.onclickrightitem
+	    }
+	  }) : _vm._e(), (!_vm.leftItemSrc) ? _c('text', {
+	    staticClass: ["left-text"],
+	    style: {
+	      color: _vm.leftItemColor
+	    },
+	    attrs: {
+	      "naviItemPosition": "left"
+	    },
+	    on: {
+	      "click": _vm.onclickleftitem
+	    }
+	  }, [_vm._v(_vm._s(_vm.leftItemTitle))]) : _vm._e(), (_vm.leftItemSrc) ? _c('image', {
+	    staticClass: ["left-image"],
+	    attrs: {
+	      "naviItemPosition": "left",
+	      "src": _vm.leftItemSrc
+	    },
+	    on: {
+	      "click": _vm.onclickleftitem
+	    }
+	  }) : _vm._e(), _c('text', {
+	    staticClass: ["center-text"],
+	    style: {
+	      color: _vm.titleColor
+	    },
+	    attrs: {
+	      "naviItemPosition": "center"
+	    }
+	  }, [_vm._v(_vm._s(_vm.title))])])
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+
+/***/ },
+/* 63 */
+/***/ function(module, exports) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: ["wrapper"]
+	  }, [_c('navbar', {
+	    attrs: {
+	      "dataRole": _vm.dataRole,
+	      "height": _vm.height,
+	      "backgroundColor": _vm.backgroundColor,
+	      "title": _vm.title,
+	      "titleColor": _vm.titleColor,
+	      "leftItemSrc": _vm.leftItemSrc,
+	      "leftItemTitle": _vm.leftItemTitle,
+	      "leftItemColor": _vm.leftItemColor,
+	      "rightItemSrc": _vm.rightItemSrc,
+	      "rightItemTitle": _vm.rightItemTitle,
+	      "rightItemColor": _vm.rightItemColor
+	    },
+	    on: {
+	      "naviBarRightItemClick": _vm.naviBarRightItemClick,
+	      "naviBarLeftItemClick": _vm.naviBarLeftItemClick
+	    }
+	  }), _c('div', {
+	    staticClass: ["wrapper"],
+	    style: {
+	      marginTop: _vm.height
+	    }
+	  }, [_vm._t("default")], 2)], 1)
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+
+/***/ },
+/* 64 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_exports__, __vue_options__
+	var __vue_styles__ = []
+
+	/* styles */
+	__vue_styles__.push(__webpack_require__(65)
+	)
+
+	/* script */
+	__vue_exports__ = __webpack_require__(66)
+
+	/* template */
+	var __vue_template__ = __webpack_require__(67)
+	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+	if (
+	  typeof __vue_exports__.default === "object" ||
+	  typeof __vue_exports__.default === "function"
+	) {
+	if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+	__vue_options__ = __vue_exports__ = __vue_exports__.default
+	}
+	if (typeof __vue_options__ === "function") {
+	  __vue_options__ = __vue_options__.options
+	}
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/components/button.vue"
+	__vue_options__.render = __vue_template__.render
+	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+	__vue_options__.style = __vue_options__.style || {}
+	__vue_styles__.forEach(function (module) {
+	for (var name in module) {
+	__vue_options__.style[name] = module[name]
+	}
+	})
+
+	module.exports = __vue_exports__
+
+
+/***/ },
+/* 65 */
+/***/ function(module, exports) {
+
+	module.exports = {
+	  "btn": {
+	    "marginBottom": 0,
+	    "alignItems": "center",
+	    "justifyContent": "center",
+	    "borderWidth": 1,
+	    "borderStyle": "solid",
+	    "borderColor": "#333333"
+	  },
+	  "btn-default": {
+	    "color": "rgb(51,51,51)"
+	  },
+	  "btn-primary": {
+	    "backgroundColor": "rgb(40,96,144)",
+	    "borderColor": "rgb(40,96,144)"
+	  },
+	  "btn-success": {
+	    "backgroundColor": "rgb(92,184,92)",
+	    "borderColor": "rgb(76,174,76)"
+	  },
+	  "btn-info": {
+	    "backgroundColor": "rgb(91,192,222)",
+	    "borderColor": "rgb(70,184,218)"
+	  },
+	  "btn-warning": {
+	    "backgroundColor": "rgb(240,173,78)",
+	    "borderColor": "rgb(238,162,54)"
+	  },
+	  "btn-danger": {
+	    "backgroundColor": "rgb(217,83,79)",
+	    "borderColor": "rgb(212,63,58)"
+	  },
+	  "btn-link": {
+	    "borderColor": "rgba(0,0,0,0)",
+	    "borderRadius": 0
+	  },
+	  "btn-txt-default": {
+	    "color": "rgb(51,51,51)"
+	  },
+	  "btn-txt-primary": {
+	    "color": "rgb(255,255,255)"
+	  },
+	  "btn-txt-success": {
+	    "color": "rgb(255,255,255)"
+	  },
+	  "btn-txt-info": {
+	    "color": "rgb(255,255,255)"
+	  },
+	  "btn-txt-warning": {
+	    "color": "rgb(255,255,255)"
+	  },
+	  "btn-txt-danger": {
+	    "color": "rgb(255,255,255)"
+	  },
+	  "btn-txt-link": {
+	    "color": "rgb(51,122,183)"
+	  },
+	  "btn-sz-large": {
+	    "width": 300,
+	    "height": 100,
+	    "paddingTop": 25,
+	    "paddingBottom": 25,
+	    "paddingLeft": 40,
+	    "paddingRight": 40,
+	    "borderRadius": 15
+	  },
+	  "btn-sz-middle": {
+	    "width": 240,
+	    "height": 80,
+	    "paddingTop": 15,
+	    "paddingBottom": 15,
+	    "paddingLeft": 30,
+	    "paddingRight": 30,
+	    "borderRadius": 10
+	  },
+	  "btn-sz-small": {
+	    "width": 170,
+	    "height": 60,
+	    "paddingTop": 12,
+	    "paddingBottom": 12,
+	    "paddingLeft": 25,
+	    "paddingRight": 25,
+	    "borderRadius": 7
+	  },
+	  "btn-txt-sz-large": {
+	    "fontSize": 45
+	  },
+	  "btn-txt-sz-middle": {
+	    "fontSize": 35
+	  },
+	  "btn-txt-sz-small": {
+	    "fontSize": 30
+	  }
+	}
+
+/***/ },
+/* 66 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	//
+	//
+	//
+	//
+	//
+	//
+
+	module.exports = {
+	  props: {
+	    type: {
+	      default: 'default'
+	    },
+	    size: {
+	      default: 'large'
+	    },
+	    value: {
+	      default: ''
+	    }
+	  }
+	};
+
+/***/ },
+/* 67 */
+/***/ function(module, exports) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    class: ['btn', 'btn-' + _vm.type, 'btn-sz-' + _vm.size]
+	  }, [_c('text', {
+	    class: ['btn-txt', 'btn-txt-' + _vm.type, 'btn-txt-sz-' + _vm.size]
+	  }, [_vm._v(_vm._s(_vm.value))])])
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+
+/***/ },
+/* 68 */
+/***/ function(module, exports) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('navpage', {
+	    attrs: {
+	      "dataRole": "none",
+	      "height": _vm.navBarHeight,
+	      "title": _vm.title,
+	      "backgroundColor": "#ff5898",
+	      "titleColor": "white",
+	      "leftItemTitle": "More",
+	      "leftItemColor": "white",
+	      "rightItemSrc": "http://gtms02.alicdn.com/tps/i2/TB1ED7iMpXXXXXEXXXXWA_BHXXX-48-48.png"
+	    },
+	    on: {
+	      "naviBarLeftItemClick": _vm.naviBarLeftItemClick,
+	      "naviBarRightItemClick": _vm.naviBarRightItemClick
+	    }
+	  }, [_c('panel', {
+	    attrs: {
+	      "title": "push a new page"
+	    }
+	  }, [_c('button', {
+	    attrs: {
+	      "type": "primary",
+	      "size": "small",
+	      "value": "push"
+	    },
+	    nativeOn: {
+	      "click": function($event) {
+	        _vm.push($event)
+	      }
+	    }
+	  })], 1), _c('panel', {
+	    attrs: {
+	      "title": "pop to the last page"
+	    }
+	  }, [_c('button', {
+	    attrs: {
+	      "type": "success",
+	      "size": "small",
+	      "value": "pop"
+	    },
+	    nativeOn: {
+	      "click": function($event) {
+	        _vm.pop($event)
+	      }
+	    }
+	  })], 1)], 1)
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+
+/***/ },
+/* 69 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_exports__, __vue_options__
+	var __vue_styles__ = []
+
+	/* styles */
+	__vue_styles__.push(__webpack_require__(70)
+	)
+
+	/* script */
+	__vue_exports__ = __webpack_require__(71)
+
+	/* template */
+	var __vue_template__ = __webpack_require__(72)
+	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+	if (
+	  typeof __vue_exports__.default === "object" ||
+	  typeof __vue_exports__.default === "function"
+	) {
+	if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+	__vue_options__ = __vue_exports__ = __vue_exports__.default
+	}
+	if (typeof __vue_options__ === "function") {
+	  __vue_options__ = __vue_options__.options
+	}
+	__vue_options__.__file = "/Users/yangshuo/Documents/shengxincode/weexDemo/src/views/test.vue"
+	__vue_options__.render = __vue_template__.render
+	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+	__vue_options__.style = __vue_options__.style || {}
+	__vue_styles__.forEach(function (module) {
+	for (var name in module) {
+	__vue_options__.style[name] = module[name]
+	}
+	})
+
+	module.exports = __vue_exports__
+
+
+/***/ },
+/* 70 */
+/***/ function(module, exports) {
+
+	module.exports = {
+	  "cell": {
+	    "height": 100,
+	    "fontSize": 50,
+	    "padding": 10,
+	    "borderStyle": "solid",
+	    "borderWidth": 2,
+	    "borderColor": "#FF0000",
+	    "justifyContent": "center",
+	    "borderLeft": 0,
+	    "borderTop": 0,
+	    "boxSizing": "content-box",
+	    "borderRight": 0
+	  }
+	}
+
+/***/ },
+/* 71 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _appHeader = __webpack_require__(11);
+
+	var _appHeader2 = _interopRequireDefault(_appHeader);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = {
+	  components: {
+	    AppHeader: _appHeader2.default
+	  },
+	  data: function data() {
+	    return {
+	      items: [{
+	        content: "扫码",
+	        methodName: "qrcode"
+	      }, {
+	        content: "GPS",
+	        methodName: "gps"
+	      }, {
+	        content: "获取session",
+	        methodName: "getSession"
+	      }, {
+	        content: "显示session",
+	        methodName: "showSession"
+	      }, {
+	        content: "相册",
+	        methodName: "album"
+	      }, {
+	        content: "地图",
+	        methodName: "map"
+	      }]
+	    };
+	  },
+
+	  methods: {
+	    goMethod: function goMethod(event) {
+	      debugger;
+	    }
+	  }
+	}; //
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+/***/ },
+/* 72 */
+/***/ function(module, exports) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', [_c('app-header'), _c('list', {
+	    staticClass: ["list"]
+	  }, _vm._l((_vm.items), function(item) {
+	    return _c('cell', {
+	      staticClass: ["cell"],
+	      appendAsTree: true,
+	      attrs: {
+	        "append": "tree"
+	      }
+	    }, [_c('button', {
+	      on: {
+	        "click": _vm.goMethod
+	      }
+	    }, [_vm._v(_vm._s(item.content))])], 1)
+	  }))], 1)
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+
+/***/ },
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4289,15 +5417,15 @@
 	  value: true
 	});
 
-	var _vuex = __webpack_require__(51);
+	var _vuex = __webpack_require__(74);
 
 	var _vuex2 = _interopRequireDefault(_vuex);
 
-	var _actions = __webpack_require__(52);
+	var _actions = __webpack_require__(75);
 
 	var actions = _interopRequireWildcard(_actions);
 
-	var _mutations = __webpack_require__(54);
+	var _mutations = __webpack_require__(77);
 
 	var mutations = _interopRequireWildcard(_mutations);
 
@@ -4362,7 +5490,7 @@
 	exports.default = store;
 
 /***/ },
-/* 51 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -5173,7 +6301,7 @@
 
 
 /***/ },
-/* 52 */
+/* 75 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5187,7 +6315,7 @@
 	exports.FETCH_ITEMS = FETCH_ITEMS;
 	exports.FETCH_USER = FETCH_USER;
 
-	var _fetch = __webpack_require__(53);
+	var _fetch = __webpack_require__(76);
 
 	var LOAD_MORE_STEP = 10;
 
@@ -5250,7 +6378,7 @@
 	}
 
 /***/ },
-/* 53 */
+/* 76 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -5301,7 +6429,7 @@
 	}
 
 /***/ },
-/* 54 */
+/* 77 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -5343,7 +6471,7 @@
 	}
 
 /***/ },
-/* 55 */
+/* 78 */
 /***/ function(module, exports) {
 
 	exports.sync = function (store, router, options) {
@@ -5404,7 +6532,7 @@
 
 
 /***/ },
-/* 56 */
+/* 79 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -5458,7 +6586,7 @@
 	}
 
 /***/ },
-/* 57 */
+/* 80 */
 /***/ function(module, exports) {
 
 	"use strict";
